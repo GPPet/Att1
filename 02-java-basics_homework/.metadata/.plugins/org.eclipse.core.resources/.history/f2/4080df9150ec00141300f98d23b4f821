@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Problem3 {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in, "UTF-8");
+
+        //Name
+        System.out.println("Име");
+        String perName = input.nextLine();  
+        
+        System.out.println("Презиме");
+        String midName = input.nextLine();       
+        
+        System.out.println("Фамилия");
+        String famName = input.nextLine();               
+        
+        System.out.println("Възраст");
+        int age = input.nextInt();
+        System.out.println();
+
+        System.out.println("Пол (м/ж)");
+        String gender = input.nextLine();
+        
+        System.out.println("ЕГН");
+        long egn = input.nextLong();
+
+        System.out.println("Телефон");
+        long tel = input.nextLong();
+        
+        System.out.println(perName + midName + famName + age + gender);
+        //System.out.println("Пол");
+        //int age = input.nextInt();
+
+        /*
+        System.out.println("Please enter a double:");
+        double numDouble = input.nextDouble();
+
+        System.out.println("Entered word: " + word);
+        System.out.println("Entered integer: " + numInt);
+        System.out.println("Entered double 	: " + numDouble);
+        */
+    }
+}

@@ -1,0 +1,19 @@
+public class Problem2 {
+
+    public static void main(String[] args) {
+        int valueA = 1;
+        int valueB = 3;
+        System.out.println("Initail values of A and B are " + valueA + " and " + valueB + ", respectively.");
+        
+        valueA = valueA + valueB;
+        valueB = valueA - valueB;
+        valueA = valueA - valueB;
+        System.out.println("Values of A and B after swapping are " + valueA + " and " + valueB + ", respectively.");
+        
+        int tmp = valueA;
+        valueA = valueB;
+        valueB = tmp;		
+        System.out.println("Values of A and B after swapping are " + valueA + " and " + valueB + ", respectively.");
+                
+    }
+}

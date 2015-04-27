@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Problem1 {
+
+    public static void main(String[] args) {
+        System.out.println("Area of a rectangle");
+        
+        Scanner input = new Scanner(System.in, "UTF-8");
+
+        System.out.println("Please, enter the legth of the rectangle (a, in cm): ");
+        float length = input.nextInt();
+        
+        System.out.println("Please, enter the width of the rectangle (b, in cm): ");
+        float width = input.nextInt();
+        
+        String word = input.nextLine();
+        
+        System.out.println("Please enter an integer:");
+        int numInt = input.nextInt();
+
+        System.out.println("Please enter a double:");
+        double numDouble = input.nextDouble();
+
+        System.out.println("Entered word: " + word);
+        System.out.println("Entered integer: " + numInt);
+        System.out.println("Entered double 	: " + numDouble);
+        
+    }
+}

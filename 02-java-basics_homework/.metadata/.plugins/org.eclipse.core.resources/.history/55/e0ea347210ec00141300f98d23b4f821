@@ -1,0 +1,13 @@
+public class Problem4 {
+	
+	  public static void main(String[] args) {
+		  char symbolOne = 'a';
+		  System.out.println(symbolOne);
+		  
+		  char symbolTwo = '\u0061';
+		  System.out.println(symbolTwo);
+		  
+		  String str = "Peter\'s car!";
+		  System.out.println(str);
+	  }
+}

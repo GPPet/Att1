@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Problem7 {
+	
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in, "UTF-8");
+
+        System.out.println("Please enter an integer: ");
+        int num = input.nextInt();
+        
+        boolean even = num % 2 == 1;
+        System.out.println(num + " is odd number: " + even);
+        
+        /*
+        int a = 5;
+        int b = 7;
+
+        
+        System.out.print(" a = ");
+        System.out.println(a);
+        
+        System.out.print(" b = ");
+        System.out.println(b);
+        
+        boolean aEqualsB = a == b;
+        System.out.print(" a == b : ");
+        System.out.println(aEqualsB);
+
+        boolean aDiffersB = a != b;
+        System.out.print(" a != b : ");
+        System.out.println(aDiffersB);
+
+        boolean aIsLessThanB = a < b;
+        System.out.print(" a < b : ");
+        System.out.println(aIsLessThanB);
+
+        boolean aIsGreaterThanB = a > b;
+        System.out.print(" a > b : ");
+        System.out.println(aIsGreaterThanB);
+
+        boolean aIsLessOrEqualThanB = a <= b;
+        System.out.print(" a <= b : ");
+        System.out.println(aIsLessOrEqualThanB);
+
+        boolean aIsGreaterOrEqualThanB = a >= b;
+        System.out.print(" a >= b : ");
+        System.out.println(aIsGreaterOrEqualThanB);
+        */
+    }
+}

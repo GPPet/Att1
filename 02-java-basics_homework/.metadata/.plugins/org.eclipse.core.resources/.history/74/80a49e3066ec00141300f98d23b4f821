@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Problem7 {
+	
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in, "UTF-8");
+
+        System.out.println("Please enter an integer: ");
+        int num = input.nextInt();
+        input.nextLine();
+        int num1 = num;
+        
+        boolean five = num % 5 != 1;
+        System.out.println(num + " is devisible by 5: " + five);
+        input.nextLine();
+        
+        
+        boolean seven = num1 % 7 != 1;
+        System.out.println(num + " is devisible by 7: " + seven);
+        
+    }
+}
